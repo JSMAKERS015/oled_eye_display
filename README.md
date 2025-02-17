@@ -1,9 +1,7 @@
 # **Oled_eye_display**
 
-![face](https://github.com/user-attachments/assets/fac3c497-b126-4b15-934c-a5b5d02c642e)
-
-
 The Oled Eye Display project serves to enhance user interaction by providing visual feedback in an engaging manner. This display features graphic representations of eyes that are capable of blinking, looking upward and downward, and displaying various emotions such as amusement and annoyance. The project employs Arduino technology to create basic geometric shapes, including rounded squares and triangles, that simulate the appearance of eyes. A tutorial video accompanies this project, offering a comprehensive guide to each step outlined on this page, ensuring clarity and accessibility for all users.
+
 
 ### **CONNECTIONS:**
 
@@ -24,31 +22,6 @@ To program the Arduino Nano, upload the "control_display.ino" file, which will h
 ![image](https://github.com/user-attachments/assets/fd50a7af-5e15-43e3-8c59-72d8d1d511cb)
 
 
-### **UPLOADING THE CODE**
-# **OLED Eye Display**
-
-![face](https://github.com/user-attachments/assets/fac3c497-b126-4b15-934c-a5b5d02c642e)
-
-The OLED Eye Display project enhances user interaction by providing visual feedback in an engaging way. This display features graphic representations of eyes that can blink, look upward and downward, and display various emotions such as amusement and annoyance. The project uses Arduino technology to create basic geometric shapes, including rounded squares and triangles, that simulate the appearance of eyes. A tutorial video is included with this project, offering a comprehensive guide to each step outlined on this page to ensure clarity and accessibility for all users.
-
-### **Connections**
-
-Connecting the Arduino to the display is relatively straightforward. It is essential to note that the display operates on a 3V power supply; therefore, it should not be connected to the 5V pin. We followed the pinout recommended by the Adafruit_SSD1306 library for the I2C connection, as outlined below:
-
-| Arduino | Display |
-| ------- | ------- |
-| 3V3    | VCC    |
-| GND    | GND    |
-| A5     | SCL    |
-| A4     | SDA    |
-
-This configuration will create the wiring shown in the following figure.
-
-![OLED + Circuit](https://github.com/user-attachments/assets/0e9d875e-9bb1-419b-9251-58bd79e058f1)
-
-To program the Arduino Nano, upload the "control_display.ino" file, which will manage drawing and communication with the computer. Use the Arduino IDE to compile and upload the code. Ensure that the Nano is connected to the computer during this process.
-
-![image](https://github.com/user-attachments/assets/fd50a7af-5e15-43e3-8c59-72d8d1d511cb)
 
 ### **Uploading the Code**
 
