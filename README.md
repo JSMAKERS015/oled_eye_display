@@ -7,11 +7,13 @@ The Oled Eye Display project serves to enhance user interaction by providing vis
 
 The connection of the Arduino to the display is relatively straightforward, and it is crucial to emphasize that the display operates on a 3V power supply; thus, it should not be connected to the 5V pin. We adhered to the pinout recommended by the Adafruit_SSD1306 library for the I2C connection, as detailed below:
 
-Arduino - Display  
-3V3 - VCC  
-GND - GND  
-A5 - SCL  
-A4 - SDA 
+### **Arduino - Display  **
+  
+|3V3 |	VCC|
+|GND |GND|
+|A4	|SDA|
+|A5	|SCL|
+
 
 This configuration creates the wiring shown in the following figure.
 
