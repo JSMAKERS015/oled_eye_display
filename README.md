@@ -10,6 +10,7 @@ The connection of the Arduino to the display is relatively straightforward, and 
 ### **Arduino - Display  **
   
 |3V3 |	VCC|
+|---|---|
 |GND |GND|
 |A4	|SDA|
 |A5	|SCL|
