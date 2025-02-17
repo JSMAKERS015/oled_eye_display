@@ -1,4 +1,4 @@
-# **Oled_eye_display**
+# **OLED EYE DISPLAY**
 
 The Oled Eye Display project serves to enhance user interaction by providing visual feedback in an engaging manner. This display features graphic representations of eyes that are capable of blinking, looking upward and downward, and displaying various emotions such as amusement and annoyance. The project employs Arduino technology to create basic geometric shapes, including rounded squares and triangles, that simulate the appearance of eyes. A tutorial video accompanies this project, offering a comprehensive guide to each step outlined on this page, ensuring clarity and accessibility for all users.
 
@@ -11,7 +11,7 @@ Arduino - Display
 3V3 - VCC  
 GND - GND  
 A5 - SCL  
-A4 - SDA  
+A4 - SDA 
 
 This configuration creates the wiring shown in the following figure.
 
